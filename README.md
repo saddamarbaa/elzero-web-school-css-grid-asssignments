@@ -1,6 +1,11 @@
 # elzero-web-school-css-grid-asssignments
 ==>  Elzero Web School  CSS Assignments
 
+
+### <a href="https://elzero.org/">Elzero Web School Website</a>
+
+### <a href="https://www.youtube.com/channel/UCSNkfKl4cU-55Nm-ovsvOHQ">Elzero Web School Youtube</a>
+
 # Assignments 1
 
 ### <a href="https://saddamarbaa.github.io/elzero-web-school-css-grid-asssignments/0 asssignments/index.html">LIVE DEMO</a>
@@ -9,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/51326421/112719858-c79a2380-8f2d-11eb-84bd-cbc25297b644.png)
 
 
-# Assignments 1
+# Assignments 2
 
 ### <a href="https://saddamarbaa.github.io/elzero-web-school-css-grid-asssignments/01%20asssignments/index.html">LIVE DEMO</a>
 
