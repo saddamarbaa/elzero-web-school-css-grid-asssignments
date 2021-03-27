@@ -1,0 +1,33 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+}
+
+body > * {
+	height: 100vh;
+	margin: 30px auto !important;
+	background-color: #eee;
+}
+
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	grid-gap: 20px;
+	display: grid;
+	grid-template-columns: 20px 1fr 1fr 20px;
+	grid-template-rows: 1fr 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.grid > div {
+	display: flex;
+	background-color: #403f3f;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
