@@ -1,0 +1,44 @@
+/** @format */
+
+body {
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	counter-reset: grid;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 50px 1fr;
+	grid-gap: 20px;
+	font-size: 32px;
+	font-weight: bold;
+	align-content: center;
+}
+
+.grid > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #607d8b;
+	position: relative;
+}
+
+.grid > div::after {
+	counter-increment: grid;
+	position: absolute;
+	content: "Element " counter(grid);
+}
