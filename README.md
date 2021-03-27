@@ -29,3 +29,12 @@
 ![image](https://user-images.githubusercontent.com/51326421/112722879-6d558e80-8f3e-11eb-87ad-9789262bcf24.png)
 
 
+# Assignments 2
+
+### <a href="https://saddamarbaa.github.io/elzero-web-school-css-grid-asssignments/02%20asssignments/index.html">LIVE DEMO</a>
+
+
+![image](https://user-images.githubusercontent.com/51326421/112724906-105ed600-8f48-11eb-9f46-705caea73d0c.png)
+
+
+
