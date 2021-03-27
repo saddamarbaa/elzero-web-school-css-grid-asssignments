@@ -1,0 +1,52 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+}
+
+body > * {
+	height: 100vh;
+	margin: 30px auto !important;
+	background-color: #eee;
+}
+
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	grid-gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.grid > div {
+	display: flex;
+	background-color: #2196f3;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.one {
+	grid-row: 6/6;
+	grid-column: 1/ 4;
+}
+
+.two {
+	grid-column: 1/ 3;
+	grid-row: 2/2;
+}
+
+.five {
+	grid-row: 3/6;
+	grid-column: 2/ 4;
+}
+
+.eight {
+	grid-column: 1/ 4;
+	grid-row: 1/2;
+}
