@@ -24,7 +24,7 @@
 
 # Assignments 2
 
-### <a href="https://saddamarbaa.github.io/elzero-web-school-css-grid-asssignments/0 asssignments/index.html">LIVE DEMO</a>
+### <a href="https://saddamarbaa.github.io/elzero-web-school-css-grid-asssignments/02%20asssignments/index.html">LIVE DEMO</a>
 
 ![image](https://user-images.githubusercontent.com/51326421/112722879-6d558e80-8f3e-11eb-87ad-9789262bcf24.png)
 
