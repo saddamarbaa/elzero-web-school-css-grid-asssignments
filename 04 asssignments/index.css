@@ -1,0 +1,37 @@
+/** @format */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: #eee;
+}
+
+body > * {
+	margin: 30px auto !important;
+}
+
+.grid {
+	background-color: #ddd;
+	padding: 20px;
+	width: 800px;
+	height: 400px;
+	grid-gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 50px);
+	font-size: 22px;
+	font-weight: bold;
+	align-content: space-between;
+}
+
+.grid > div {
+	display: flex;
+	background-color: #e91e63;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
